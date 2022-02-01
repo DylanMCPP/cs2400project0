@@ -13,6 +13,10 @@ public class TaskA {
 		System.out.println(numberCount(testArray, 4));
 	}
 	
+
+	/**
+	 * counts the number of times a specific integer appears in an array of integers
+	 */
 	static private int numberCount (int[] array, int num) {
 		if (array.length >= 1) {
 			if (array[0] != num)
