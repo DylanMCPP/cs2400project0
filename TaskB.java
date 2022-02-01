@@ -10,13 +10,13 @@ public class TaskB {
 	}
 	
 	/**
-	 * returns the summation of all values from 1 up to the given integer
+	 * returns the summation of all values from 1 up to the given integer times two
 	 * @param value
 	 * @return
 	 */
 	public static int sum (int value) {
 		if (value < 1)
 			return 0;
-		return value + sum(value-1);
+		return (2 * value) + sum(value-1);
 	}
 }
